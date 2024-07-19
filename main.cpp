@@ -121,6 +121,7 @@ void handleMenu()
     }
   }
 
+  
   if (digitalRead(BUTTON_UP) == LOW)
   {
     adjustValue(1);
